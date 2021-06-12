@@ -1,3 +1,18 @@
+# Config files, logs and stuff
+LEGENDROBOT/modules/helper_funcs/temp.txt
+LEGENDROBOT/elevated_users.json
+LEGENDROBOT/config.py
+LEGENDROBOT/config.ini
+log.txt
+kangsticker.png
+updates.txt
+
+# Session files
+LEGENDROBOT/*.session
+LEGENDROBOT/*.session-journal
+LEGEND.session-journal
+*.session
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +142,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# VS code and shit
+*.pyc
+.idea/
+.project
+.pydevproject
+.directory
+.vscode
