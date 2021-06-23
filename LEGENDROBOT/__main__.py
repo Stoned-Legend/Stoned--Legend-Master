@@ -4,7 +4,7 @@ import re
 from sys import argv
 from typing import Optional
 
-from SuzieRoBot import (
+from LEGENDROBOT import (
     ALLOW_EXCL,
     CERT_PATH,
     DONATION_LINK,
@@ -74,24 +74,24 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hellow 🙋‍♀ My name is [Suzie](https://telegra.ph/file/152074fd0e34541dcdc4b.jpg)
+Hellow 🙋‍♀ My name is [LEGEND](https://telegra.ph/file/152074fd0e34541dcdc4b.jpg)
 I'm here to help you manage your groups! Hit` *📚Commands* `button below to find out more about how to use me to my full potential.
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD Suzie TO YOUR GROUP ➕️", url="t.me/SuzieRoBot?startgroup=true"),
+            text="➕️ ADD LEGEND TO YOUR GROUP ➕️", url="t.me/LEGENDROBOT?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="Suzie_"),
+        InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="LEGEND_"),
         InlineKeyboardButton(text="📚 COMMANDS", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
             text="💾 SOURCE", callback_data="source_"),
         InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://t.me/SuzieRoBot_Support"
+            text="👥 SUPPORT", url="https://t.me/LEGENDROBOT_Support"
         ),
     ],
 ]
@@ -114,7 +114,7 @@ CHAT_SETTINGS = {}
 USER_SETTINGS = {}
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("SuzieRoBot.modules." + module_name)
+    imported_module = importlib.import_module("LEGENDROBOT.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
@@ -346,7 +346,7 @@ def Suzie_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "Suzie_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Suzie*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *LEGEND*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
@@ -366,7 +366,7 @@ def Suzie_about_callback(update: Update, context: CallbackContext):
                 ]
             ),
         )
-    elif query.data == "Suzie_back":
+    elif query.data == "LEGEND_back":
         query.message.edit_text(
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
@@ -381,8 +381,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Suzie*
-                 \nHere is the [Source Code](https://github.com/W2HGalaxy-OP/SuzieRoBot) .""",
+            text=""" Hi..🤗 I'm *LEGEND*
+                 \nHere is the [Source Code](https://github.com/LEGEND-OS/LEGENDROBOT) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
@@ -694,7 +694,7 @@ def main():
     settings_handler = CommandHandler("settings", get_settings)
     settings_callback_handler = CallbackQueryHandler(settings_button, pattern=r"stngs_")
 
-    about_callback_handler = CallbackQueryHandler(Suzie_about_callback, pattern=r"Suzie_")
+    about_callback_handler = CallbackQueryHandler(Suzie_about_callback, pattern=r"LEGEND_")
     source_callback_handler = CallbackQueryHandler(Source_about_callback, pattern=r"source_")
 
     donate_handler = CommandHandler("donate", donate)
