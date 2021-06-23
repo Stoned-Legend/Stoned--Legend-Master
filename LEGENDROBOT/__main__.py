@@ -19,7 +19,6 @@ from LEGENDROBOT import (
     dispatcher,
     StartTime,
     telethn,
-    pbot,
     updater,
 )
 
