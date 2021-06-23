@@ -25,7 +25,7 @@ from LEGENDROBOT import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from SuzieRoBot.modules import ALL_MODULES
+from LEGENDROBOT.modules import ALL_MODULES
 from SuzieRoBot.modules.helper_funcs.chat_status import is_user_admin
 from SuzieRoBot.modules.helper_funcs.misc import paginate_modules
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
