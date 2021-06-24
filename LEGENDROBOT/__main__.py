@@ -342,9 +342,9 @@ def help_button(update, context):
 
 
 @run_async
-def Suzie_about_callback(update: Update, context: CallbackContext):
+def LEGEND_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
-    if query.data == "Suzie_":
+    if query.data == "LEGEND_":
         query.message.edit_text(
             text=""" ℹ️ I'm *LEGEND*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
@@ -353,15 +353,15 @@ def Suzie_about_callback(update: Update, context: CallbackContext):
                  ❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
-                 \n_Suzie's licensed under the GNU General Public License v3.0_
-                 Here is the [💾Repository](https://github.com/W2HGalaxy-OP/SuzieRoBot).
-                 If you have any question about Suzie, let us know at @SuzieRoBot_Support.""",
+                 \n_LEGEND's licensed under the GNU General Public License v3.0_
+                 Here is the [💾Repository](https://github.com/W2HGalaxy-OP/LEGENDROBOT).
+                 If you have any question about LEGEND, let us know at @LEGENDROBOT_Support.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="Suzie_back")
+                    InlineKeyboardButton(text="Back", callback_data="LEGEND_back")
                  ]
                 ]
             ),
@@ -382,7 +382,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..🤗 I'm *LEGEND*
-                 \nHere is the [Source Code](https://github.com/LEGEND-OS/LEGENDROBOT) .""",
+                 \nHere is the [Source Code](https://github.com/W2HGalaxy-OP/LEGENDROBOT) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
@@ -694,7 +694,7 @@ def main():
     settings_handler = CommandHandler("settings", get_settings)
     settings_callback_handler = CallbackQueryHandler(settings_button, pattern=r"stngs_")
 
-    about_callback_handler = CallbackQueryHandler(Suzie_about_callback, pattern=r"LEGEND_")
+    about_callback_handler = CallbackQueryHandler(LEGEND_about_callback, pattern=r"LEGEND_")
     source_callback_handler = CallbackQueryHandler(Source_about_callback, pattern=r"source_")
 
     donate_handler = CommandHandler("donate", donate)
