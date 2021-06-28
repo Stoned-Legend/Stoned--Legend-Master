@@ -81,7 +81,7 @@ I'm here to help you manage your groups! Hit` *📚Commands* `button below to fi
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD LEGEND TO YOUR GROUP ➕️", url="t.me/LEGENDROBOT?startgroup=true"),
+            text="➕️ ADD LEGEND TO YOUR GROUP ➕️", url="t.me/LEGEND_Mr_Bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="LEGEND_"),
@@ -114,7 +114,7 @@ CHAT_SETTINGS = {}
 USER_SETTINGS = {}
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("LEGENDROBOT.modules." + module_name)
+    imported_module = importlib.import_module("Legend_Mr_Bot.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
@@ -211,7 +211,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            "I'm awake already(Jinda Hu)!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -355,7 +355,7 @@ def LEGEND_about_callback(update: Update, context: CallbackContext):
                  ❍ I check for admins' permissions before executing any command and more stuffs
                  \n_LEGEND's licensed under the GNU General Public License v3.0_
                  Here is the [💾Repository](https://github.com/LEGEND-OS/LEGENDROBOT).
-                 If you have any question about LEGEND, let us know at @LEGENDROBOT.""",
+                 If you have any question about LEGEND, let us know at @Legend_Mr_Bot.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
