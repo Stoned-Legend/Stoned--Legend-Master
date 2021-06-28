@@ -1,5 +1,5 @@
-# credits @RoseLoverX @InukaASiTH
-# ported to LEGEND @Mr_dark_prince
+# credits @Legend_Mr_Hacker
+# ported to LEGEND @Legend_Mr_Hacker
 from LEGENDROBOT import OWNER_ID, BOT_ID
 from LEGENDROBOT import telethn as tbot
 import LEGENDROBOT.modules.sql.aihelp_sql as sql
