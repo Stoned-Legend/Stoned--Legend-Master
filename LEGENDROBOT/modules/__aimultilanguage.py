@@ -13,8 +13,8 @@ from telethon import events
 from LEGENDROBOT.events import register
 
 string = (
-  "I belong To Mr_dark_prince!",
-  "Im Fairly Yound And Was Made by mr_dark_prince!",
+  "I belong To Legend_Mr_Hacker!",
+  "Im Fairly Yound And Was Made by Legend_Mr_Hacker!",
 )
 
 
