@@ -1,7 +1,7 @@
 {
       "name": "LEGENDROBOT",
-      "description": "Telegram group management bot.",
-      "logo": "https://telegra.ph/file/2be5b068cfaabd28a1ac6.jpg",
+      "description": "Telegram group Management BOT made By @Legend_Mr_Hacker With Hardwork & With Lots Of Love.",
+      "logo": "https://telegra.ph/file/c46e80c536319a65724ac.jpg",
       "keywords": [
          "telegram",
          "anime",
@@ -40,12 +40,12 @@
          "value": "sqldbtype://username:pw@hostname:port/db_name"
       },      
       "OWNER_ID": {
-         "description": "Your user ID as an integer.",
+         "description": "Your user ID as an integer.Start @missrose_bot & send /id.copy that id and paste here",
          "required": true,
          "value": ""
       },
       "BOT_ID": {
-         "description": "Your bot ID.. Use any other bot to get it.",
+         "description": "Create Bot from @botfather and copy bot id and paste here or ask:-@Legend_Mr_Hacker ",
          "required": true,
          "value": ""
       },
@@ -58,7 +58,7 @@
         "required": false
       },
       "OWNER_USERNAME": {
-         "description": "Your username without the @",
+         "description": "Your Telegram username without the @",
          "value": ""
       },
       "SUPPORT_CHAT": {
@@ -69,7 +69,7 @@
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
          "required": false,
-         "value": ""
+         "value": "mongodb+srv://Bot:Bot@cluster0.pahsr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
       },
       "IBM_WATSON_CRED_URL": {
          "description": "This is required for the speech to text module. Get your USERNAME from https://console.bluemix.net/docs/services/speech-to-text/getting-started.html",
@@ -80,22 +80,22 @@
         "required": false
      },
      "EVENT_LOGS": {
-         "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
+         "description": "Event logs channel to note down important bot level events, recommend to make this public.Don't Edit this.",
          "required": true,
-         "value": "-123456798"
+         "value": "-1234"
       },
       "JOIN_LOGGER": {
-         "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
+         "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.Don't Edit this.",
          "required": true,
-         "value": "-123456798"
+         "value": "-12344"
       },      
       "CASH_API_KEY": {
-         "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
+         "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key.Don't edit this",
          "required": true,
          "value": "-xyz"
       },
       "TIME_API_KEY": {
-         "description": "Required for timezone information. Get yours from https://timezonedb.com/api",
+         "description": "Required for timezone information. Get yours from https://timezonedb.com/api.Don't Edit This.",
          "required": true,
          "value": "-xyz"
       },
@@ -105,8 +105,8 @@
         "required": false
       },
       "DEV_USERS": {
-         "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother LEGEND support then keep the current ID's here at they are and add yours.",
-         "required": false,
+         "description": "Add Owner ID & ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and ask With @Legend_Mr_Hacker then keep the current ID's here at they are and add yours.",
+         "required": true,
          "value": ""
       },
       "sw_api": {
@@ -119,13 +119,13 @@
          "value": "True"
       },
       "DRAGONS": {
-         "description": "A space separated list of user IDs who you want to assign as sudo users.",
-         "required": false,
+         "description": "Add ur ID and Ur dev user ID.A space separated list of user IDs who you want to assign as sudo users.",
+         "required": true,
          "value": ""
       },
       "DEMONS": {
-         "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
-         "required": false,
+         "description": "Add ur ID and Ur Dev User ID.A space separated list of user IDs who you wanna assign as support users(gban perms only).",
+         "required": true,
          "value": ""
       },
       "TIGERS": {
@@ -153,9 +153,9 @@
          "value": ""
       },
       "URL": {
-         "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
-         "required": false,
-         "value": ""
+         "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/.Otherwise Ask with @Legend_Mr_Hacker",
+         "required": true,
+         "value": "https://<appname>.herokuapp.com/"
       },
       "No_LOAD": {
          "description": "Dont load these modules cause they shit, space separation",
