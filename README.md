@@ -21,7 +21,7 @@
 
 > ⭐️ Thanks to everyone who starred LEGEND, That is the greatest pleasure we have !
 
-## Avaiilable on Telegram as [@LEGENDROBOT](https://t.me/LEGENDROBOT)
+## Avaiilable on Telegram as [LEGENDROBOT](https://t.me/@Legend_Mr_Bot)
 
 ## ✨ Easy To Deploy ✨
 The easiest way to deploy this Bot
@@ -34,24 +34,9 @@ To get Telethon String Session Tap on This ➤ [Generate String Session](https:/
 # ❤️ OWNER
 <a href="https://t.me/Legend_Mr_Hacker"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
 
-## Contributers
+## String Session
+[STRING SESSION](https://replit.com/@KrishnaJaiswal1/LEGENDBOT#main.py)
+
+### Contributers
 
 - [LEGEND](https://github.com/LEGEND-OS)
-
-## CREDITS
-
-- [PaulSonOfLars](https://github.com/PaulSonOfLars/tgbot)
-- [Saitama](https://github.com/AnimeKaizoku)
-- [Loli-Killer](https://github.com/Loli-Killer)
-- [RealAkito](https://github.com/RealAkito)
-- [MrYacha](https://github.com/MrYacha)
-- [Shreyansh](https://github.com/okay-retard)
-- [Ayush](https://github.com/MissJuliaRobot/MissJuliaRobot)
-- [Inuka Asith](https://github.com/inukaasith)
-- [Legendx](https://github.com/LEGENDXOP)
-- [Amarnath c](https://github.com/Amarnathcdj)
-- [Thehamkercat](https://github.com/thehamkercat)
-- [DragSama](https://github.com/DragSama)
-- [Shrimadhav](https://github.com/SpEcHiDe)
-- [Ayra Hikari](https://github.com/AyraHikari)
-- [Masha Robot](https://github.com/Mr-Dark-Prince/MashaRoBot)
