@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hello My name is [LEGEND](https://telegra.ph/file/22d0976cc9c7627d48319.jpg)
+Hello My name is [Aditya](https://telegra.ph/file/22d0976cc9c7627d48319.jpg)
 I'm here to help you manage your groups! Hit` *📚Commands* `button below to find out more about how to use me to my full potential.Add Me in Ur Group With full Rights. ITS HELP U TO MANAGE UR BOT.
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD LEGEND TO YOUR GROUP ➕️", url="t.me/LEGEND_Mr_Bot?startgroup=true"),
+            text="➕️ ADD LEGEND TO YOUR GROUP ➕️", url="t.me/Mr_hacker_Aditya_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="LEGEND_"),
@@ -346,7 +346,7 @@ def LEGEND_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "LEGEND_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *LEGEND*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Aditya*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
@@ -354,7 +354,7 @@ def LEGEND_about_callback(update: Update, context: CallbackContext):
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
                  \n_LEGEND's licensed under the GNU General Public License v3.0_
-                 Here is the [💾Repository](https://github.com/LEGEND-OS/LEGENDROBOT).
+                 Here is the [💾Repository](https://github.com/Aditya-chandan-os/LEGENDROBOT).
                  If you have any question about LEGEND, let us know at @Legend_Mr_Bot.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -382,7 +382,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..🤗 I'm *LEGEND*
-                 \nHere is the [Source Code](https://github.com/LEGEND-OS/LEGENDROBOT) .""",
+                 \nHere is the [Source Code](https://github.com/Aditya-chandan-os/LEGENDROBOT) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
