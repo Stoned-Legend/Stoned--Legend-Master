@@ -1,7 +1,7 @@
 {
-      "name": "LEGENDROBOT",
-      "description": "Telegram group Management BOT made By @Legend_Mr_Hacker With Hardwork & With Lots Of Love.",
-      "logo": "https://telegra.ph/file/c46e80c536319a65724ac.jpg",
+      "name": "ADITYAROBOT",
+      "description": "Telegram group Management BOT made By @Legend_Mr_Hacker_Aditya With Hardwork & With Lots Of Love.",
+      "logo": "https://telegra.ph/file/149321b4ea5d4fb6fec24.jpg",
       "keywords": [
          "telegram",
          "anime",
@@ -9,7 +9,7 @@
          "manager",
          "LEGEND"
       ],   
-   "repository": "https://github.com/LEGEND-OS/LEGENDROBOT",
+   "repository": "https://github.com/Aditya-Chandan-Os/LEGENDROBOT",
    "addons": [
       {
          "options": {
