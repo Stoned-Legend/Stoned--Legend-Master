@@ -1,8 +1,8 @@
-name: Krishna Kumar
+name: Agora Swamy
 
 on: push
 
-jobs:
+jobs:Animator and Hacker
 
   build:
 
@@ -18,9 +18,9 @@ jobs:
 
         with:
 
-          find: "Legend_Mr_Bot"
+          find: "Stoned-Legend"
 
-          replace: "Legend_Mr_Bot"
+          replace: "Stoned-Legend-Assistant SLA"
 
       - name: Create Pull Request
 
@@ -34,6 +34,10 @@ jobs:
 
           repository: .
 
-          commit_user_name: LEGEND-OS
+          commit_user_name: Stoned-Legend-Agora
 
-          commit_user_email: Krishna045Jaiswal@gmail.com
+          commit_user_email: legendagorabot@gmail.com
+          
+          
+          
+
