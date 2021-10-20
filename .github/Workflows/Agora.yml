@@ -1,0 +1,44 @@
+name: Agora Swamy
+
+on: push
+
+jobs:Animator and Hacker
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v2
+
+      - name: Find and Replace
+
+        uses: jacobtomlinson/gha-find-replace@master
+
+        with:
+
+          find: "Legend_bot"
+
+          replace: "Stoned-Legend-Assistant SLA"
+
+      - name: Create Pull Request
+
+        uses: stefanzweifel/git-auto-commit-action@v4
+
+        with:
+
+          commit_message: 'Initial commit'
+
+          commit_options: '--no-verify'
+
+          repository: .
+
+          commit_user_name: Stoned-Legend-Agora
+
+          commit_user_email: legendagorabot@gmail.com
+          
+          
+          
+
+© 2021 GitHub, 
